@@ -48,7 +48,6 @@ void specifiesLengthTheLeftParenthesis(string& s, int i, int& ans)
 			if (!numRParenthesis)
 			{
 				maxLen = max(maxLen, counting);
-				//counting = 0;
 			}
 
 			if (numRParenthesis < 0)
