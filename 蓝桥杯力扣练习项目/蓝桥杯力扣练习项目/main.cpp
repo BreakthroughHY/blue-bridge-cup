@@ -18,7 +18,9 @@ int main()
 
 	//backToLongestTextStr(); // 最长回文子串	Longest Palindromic Substring
 
-	parenthesesGenerates(); // 括号生成		bracket-generating
+	//parenthesesGenerates(); // 括号生成		bracket-generating
+
+	maximumEffectiveBrackets(); // 最长有效括号	Longest valid bracket
 
 	return 0;
 }

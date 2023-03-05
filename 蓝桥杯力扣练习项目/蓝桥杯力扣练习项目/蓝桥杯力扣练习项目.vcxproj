@@ -143,6 +143,7 @@
     <ClCompile Include="count_prime.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
     <ClCompile Include="longest_palindromic_substring.cpp" />
+    <ClCompile Include="longest_valid_bracket.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="max_timeint_number_array.cpp" />
     <ClCompile Include="mountain_array.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="count_prime.h" />
     <ClInclude Include="get_power_2_reorder.h" />
     <ClInclude Include="longest_palindromic_substring.h" />
+    <ClInclude Include="longest_valid_bracket.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="max_timeint_number_array.h" />
     <ClInclude Include="mountain_array.h" />

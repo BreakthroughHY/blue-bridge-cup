@@ -25,4 +25,6 @@ using namespace std;
 
 #include "bracket_generating.h" // 括号生成		bracket-generating
 
+#include "longest_valid_bracket.h" // 最长有效括号	Longest valid bracket
+
 #endif // !__MAIN_H__
