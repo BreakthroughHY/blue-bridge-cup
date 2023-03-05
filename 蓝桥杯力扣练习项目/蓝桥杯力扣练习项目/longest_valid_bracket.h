@@ -13,6 +13,6 @@ public:
 
 int maximumEffectiveBrackets();
 
-void specifiesLengthTheLeftParenthesis(string& s, int i, int& ans);
+void specifiesLengthTheLeftParenthesis(string& s, int i, int& ans, int& len);
 
 #endif // !__LONGEST_VALID_BRACKET_H__
