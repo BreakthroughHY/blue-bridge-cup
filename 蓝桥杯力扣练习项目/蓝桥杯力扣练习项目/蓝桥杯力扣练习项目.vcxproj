@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="count_prime.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
+    <ClCompile Include="longest_palindromic_substring.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="max_timeint_number_array.cpp" />
     <ClCompile Include="mountain_array.cpp" />
@@ -150,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="count_prime.h" />
     <ClInclude Include="get_power_2_reorder.h" />
+    <ClInclude Include="longest_palindromic_substring.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="max_timeint_number_array.h" />
     <ClInclude Include="mountain_array.h" />

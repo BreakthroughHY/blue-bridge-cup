@@ -14,8 +14,9 @@ int main()
 
 	//getPower2Reorder(); // 重新排序得到 2 的幂	Reorder to get the power of 2
 
-	maximumTimeWithinAnArray(); // 给定数字能组成的最大时间		The maximum time that a given number can compose
+	//maximumTimeWithinAnArray(); // 给定数字能组成的最大时间		The maximum time that a given number can compose
 
+	backToLongestTextStr(); // 最长回文子串	Longest Palindromic Substring
 
 	return 0;
 }

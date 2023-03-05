@@ -21,4 +21,6 @@ using namespace std;
 
 #include "max_timeint_number_array.h" // 给定数字能组成的最大时间	The maximum time that a given number can compose
 
+#include "longest_palindromic_substring.h" // 最长回文子串	Longest Palindromic Substring
+
 #endif // !__MAIN_H__

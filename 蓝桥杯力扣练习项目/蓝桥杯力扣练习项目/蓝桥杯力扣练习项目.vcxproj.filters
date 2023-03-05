@@ -36,6 +36,9 @@
     <ClCompile Include="super_number_palindromes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="longest_palindromic_substring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -57,6 +60,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="super_number_palindromes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="longest_palindromic_substring.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
