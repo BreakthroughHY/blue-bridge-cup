@@ -23,4 +23,6 @@ using namespace std;
 
 #include "longest_palindromic_substring.h" // 最长回文子串	Longest Palindromic Substring
 
+#include "bracket_generating.h" // 括号生成		bracket-generating
+
 #endif // !__MAIN_H__

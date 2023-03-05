@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bracket_generating.cpp" />
     <ClCompile Include="count_prime.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
     <ClCompile Include="longest_palindromic_substring.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="super_number_palindromes.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bracket_generating.h" />
     <ClInclude Include="count_prime.h" />
     <ClInclude Include="get_power_2_reorder.h" />
     <ClInclude Include="longest_palindromic_substring.h" />
