@@ -48,6 +48,9 @@
     <ClCompile Include="connected_to_rainwater.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="wildcard_matching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -81,6 +84,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="connected_to_rainwater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wildcard_matching.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

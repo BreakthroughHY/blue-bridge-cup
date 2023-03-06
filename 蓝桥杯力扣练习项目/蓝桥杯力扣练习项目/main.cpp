@@ -22,7 +22,9 @@ int main()
 
 	//maximumEffectiveBrackets(); // 最长有效括号	Longest valid bracket
 
-	afterRain(); // 接雨水	Connected to rainwater
+	//afterRain(); // 接雨水	Connected to rainwater
+
+	wildcardMatch(); // 通配符匹配	Wildcard matching
 
 	return 0;
 }

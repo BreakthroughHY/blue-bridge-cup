@@ -29,4 +29,6 @@ using namespace std;
 
 #include "connected_to_rainwater.h" // ½ÓÓêË®	Connected to rainwater
 
+#include "wildcard_matching.h" // Í¨Åä·ûÆ¥Åä	Wildcard matching
+
 #endif // !__MAIN_H__

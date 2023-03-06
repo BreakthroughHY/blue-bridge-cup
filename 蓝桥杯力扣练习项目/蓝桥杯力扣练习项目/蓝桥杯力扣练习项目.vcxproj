@@ -150,6 +150,7 @@
     <ClCompile Include="mountain_array.cpp" />
     <ClCompile Include="sum_of_continuous_integers.cpp" />
     <ClCompile Include="super_number_palindromes.cpp" />
+    <ClCompile Include="wildcard_matching.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bracket_generating.h" />
@@ -163,6 +164,7 @@
     <ClInclude Include="mountain_array.h" />
     <ClInclude Include="sum_of_continuous_integers.h" />
     <ClInclude Include="super_number_palindromes.h" />
+    <ClInclude Include="wildcard_matching.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
