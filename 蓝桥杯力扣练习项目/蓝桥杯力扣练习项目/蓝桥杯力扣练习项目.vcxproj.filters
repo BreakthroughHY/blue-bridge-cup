@@ -45,6 +45,9 @@
     <ClCompile Include="longest_valid_bracket.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="connected_to_rainwater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -75,6 +78,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="longest_valid_bracket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connected_to_rainwater.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

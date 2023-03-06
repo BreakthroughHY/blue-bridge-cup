@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bracket_generating.cpp" />
+    <ClCompile Include="connected_to_rainwater.cpp" />
     <ClCompile Include="count_prime.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
     <ClCompile Include="longest_palindromic_substring.cpp" />
@@ -152,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bracket_generating.h" />
+    <ClInclude Include="connected_to_rainwater.h" />
     <ClInclude Include="count_prime.h" />
     <ClInclude Include="get_power_2_reorder.h" />
     <ClInclude Include="longest_palindromic_substring.h" />
