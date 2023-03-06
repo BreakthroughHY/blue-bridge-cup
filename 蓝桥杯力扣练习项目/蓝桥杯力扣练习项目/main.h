@@ -27,4 +27,6 @@ using namespace std;
 
 #include "longest_valid_bracket.h" // 最长有效括号	Longest valid bracket
 
+#include "connected_to_rainwater.h" // 接雨水	Connected to rainwater
+
 #endif // !__MAIN_H__

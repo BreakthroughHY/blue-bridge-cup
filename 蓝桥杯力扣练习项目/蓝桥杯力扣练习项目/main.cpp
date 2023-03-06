@@ -20,7 +20,9 @@ int main()
 
 	//parenthesesGenerates(); // 括号生成		bracket-generating
 
-	maximumEffectiveBrackets(); // 最长有效括号	Longest valid bracket
+	//maximumEffectiveBrackets(); // 最长有效括号	Longest valid bracket
+
+	afterRain(); // 接雨水	Connected to rainwater
 
 	return 0;
 }
