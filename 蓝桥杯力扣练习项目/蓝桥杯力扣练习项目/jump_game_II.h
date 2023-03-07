@@ -3,6 +3,7 @@
 #ifndef __JUMP_GAME_II_H__
 #define __JUMP_GAME_II_H__
 
+#include <vector>
 #include "main.h"
 
 // ¥¥Ω®¿‡
