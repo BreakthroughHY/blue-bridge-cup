@@ -33,4 +33,6 @@ using namespace std;
 
 #include "jump_game_II.h" // 跳跃游戏 II	Jump Game II
 
+#include "maximum_subarray_and.h" // MaximumSubarrayAnd	最大子数组和
+
 #endif // !__MAIN_H__

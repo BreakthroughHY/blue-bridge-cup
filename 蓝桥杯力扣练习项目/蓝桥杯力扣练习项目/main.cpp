@@ -26,7 +26,10 @@ int main()
 
 	//wildcardMatch(); // 通配符匹配	Wildcard matching
 
-	jumpingGamesII(); // 跳跃游戏 II	Jump Game II
+	//jumpingGamesII(); // 跳跃游戏 II	Jump Game II
+
+	architecturalTheArray(); // MaximumSubarrayAnd	最大子数组和
+
 
 	return 0;
 }

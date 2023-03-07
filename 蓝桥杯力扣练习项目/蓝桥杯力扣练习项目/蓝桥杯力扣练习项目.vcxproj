@@ -147,6 +147,7 @@
     <ClCompile Include="longest_palindromic_substring.cpp" />
     <ClCompile Include="longest_valid_bracket.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="maximum_subarray_and.cpp" />
     <ClCompile Include="max_timeint_number_array.cpp" />
     <ClCompile Include="mountain_array.cpp" />
     <ClCompile Include="sum_of_continuous_integers.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="longest_palindromic_substring.h" />
     <ClInclude Include="longest_valid_bracket.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="maximum_subarray_and.h" />
     <ClInclude Include="max_timeint_number_array.h" />
     <ClInclude Include="mountain_array.h" />
     <ClInclude Include="sum_of_continuous_integers.h" />
