@@ -24,7 +24,9 @@ int main()
 
 	//afterRain(); // ½ÓÓêË®	Connected to rainwater
 
-	wildcardMatch(); // Í¨Åä·ûÆ¥Åä	Wildcard matching
+	//wildcardMatch(); // Í¨Åä·ûÆ¥Åä	Wildcard matching
+
+	jumpingGamesII(); // ÌøÔ¾ÓÎÏ· II	Jump Game II
 
 	return 0;
 }

@@ -31,4 +31,6 @@ using namespace std;
 
 #include "wildcard_matching.h" // Í¨Åä·ûÆ¥Åä	Wildcard matching
 
+#include "jump_game_II.h" // ÌøÔ¾ÓÎÏ· II	Jump Game II
+
 #endif // !__MAIN_H__

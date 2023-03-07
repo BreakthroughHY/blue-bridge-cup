@@ -51,6 +51,9 @@
     <ClCompile Include="wildcard_matching.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="jump_game_II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -87,6 +90,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="wildcard_matching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jump_game_II.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
