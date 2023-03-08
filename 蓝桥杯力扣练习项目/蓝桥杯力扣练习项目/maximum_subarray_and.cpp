@@ -6,7 +6,7 @@ int architecturalTheArray()
 	SolutionMaximumSubarrayAnd s;
 	//int nums[] = { -2,1,-3,4,-1,2,1,-5,4 };
 	//int nums[] = { 5, 4, -1, 7, 8 };
-	int nums[2] = { -2,-1 };
+	int nums[] = { 1,2,-1,-2,2,1,-2,1 };
 
 	vector<int> v;
 
@@ -17,7 +17,8 @@ int architecturalTheArray()
 
 	DWORD start_time = GetTickCount();
 
-	cout << s.maxSubArray(v) << endl;
+	//cout << s.maxSubArray(v) << endl;
+	cout << dynamicProgrammingMethodViolence(v) << endl;
 
 	DWORD end_time = GetTickCount();
 
@@ -135,4 +136,33 @@ int positiveNegativeToRangeIsNotNegative(vector<int>& nums, int front, int back,
 	{
 		return positiveNegativeToRangeIsNotNegative(nums, front, back, value + plusSignAnd + minusSignAnd);
 	}
+}
+
+// 动态规划暴力法
+int dynamicProgrammingMethodViolence(vector<int>& nums)
+{
+	int len = nums.size();
+	vector<int> dp(len);
+
+	dp[0] = nums[0]; // 动态规划初始化
+
+	for (int i = 1; i < len; ++i)
+	{
+		if (dp[i - 1] <= 0)
+		{
+			dp[i] = nums[i];
+		}
+		else
+		{
+			dp[i] = dp[i - 1] + nums[i];
+		}
+	}
+
+	int max_ = INT_MIN;
+	for (int i = 0; i < len; ++i)
+	{
+		max_ = max(max_, dp[i]);
+	}
+
+	return max_;
 }
