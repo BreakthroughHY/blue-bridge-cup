@@ -41,4 +41,6 @@ using namespace std;
 
 #include "different_paths_II.h" // 不同路径 II		Different path II
 
+#include "minimum_path_and.h" // 最小路径和		Minimum path and
+
 #endif // !__MAIN_H__

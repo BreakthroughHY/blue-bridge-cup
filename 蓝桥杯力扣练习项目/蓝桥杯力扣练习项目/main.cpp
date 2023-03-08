@@ -34,7 +34,9 @@ int main()
 
 	//differentPaths(); // 不同路径	Different paths
 
-	differentPathsII(); // 不同路径 II		Different path II
+	//differentPathsII(); // 不同路径 II		Different path II
+
+	minimumPathAnd(); // 最小路径和		Minimum path and
 
 	return 0;
 }
