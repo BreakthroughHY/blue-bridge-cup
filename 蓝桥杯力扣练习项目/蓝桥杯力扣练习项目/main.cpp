@@ -36,7 +36,9 @@ int main()
 
 	//differentPathsII(); // 不同路径 II		Different path II
 
-	minimumPathAnd(); // 最小路径和		Minimum path and
+	//minimumPathAnd(); // 最小路径和		Minimum path and
+
+	climbStairs(); // 爬楼梯		climb stairs
 
 	return 0;
 }

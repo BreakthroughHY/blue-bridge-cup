@@ -43,4 +43,6 @@ using namespace std;
 
 #include "minimum_path_and.h" // 最小路径和		Minimum path and
 
+#include "climb_stairs.h" // 爬楼梯		climb stairs
+
 #endif // !__MAIN_H__
