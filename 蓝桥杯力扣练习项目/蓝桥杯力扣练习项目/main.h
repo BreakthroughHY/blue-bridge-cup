@@ -35,4 +35,6 @@ using namespace std;
 
 #include "maximum_subarray_and.h" // MaximumSubarrayAnd	最大子数组和
 
+#include "jump_game.h" // 跳跃游戏		Jump game
+
 #endif // !__MAIN_H__

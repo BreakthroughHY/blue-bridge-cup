@@ -28,8 +28,9 @@ int main()
 
 	//jumpingGamesII(); // 跳跃游戏 II	Jump Game II
 
-	architecturalTheArray(); // MaximumSubarrayAnd	最大子数组和 // 不使用暴力法，通过找规律写代码失败，考虑因素太多，目前觉得使用官网方法——动态规划优化过的暴力法
+	//architecturalTheArray(); // MaximumSubarrayAnd	最大子数组和 // 不使用暴力法，通过找规律写代码失败，考虑因素太多，目前觉得使用官网方法——动态规划优化过的暴力法
 
+	jumpingGames(); // 跳跃游戏		Jump game
 
 	return 0;
 }

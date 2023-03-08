@@ -143,6 +143,7 @@
     <ClCompile Include="connected_to_rainwater.cpp" />
     <ClCompile Include="count_prime.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
+    <ClCompile Include="jump_game.cpp" />
     <ClCompile Include="jump_game_II.cpp" />
     <ClCompile Include="longest_palindromic_substring.cpp" />
     <ClCompile Include="longest_valid_bracket.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="connected_to_rainwater.h" />
     <ClInclude Include="count_prime.h" />
     <ClInclude Include="get_power_2_reorder.h" />
+    <ClInclude Include="jump_game.h" />
     <ClInclude Include="jump_game_II.h" />
     <ClInclude Include="longest_palindromic_substring.h" />
     <ClInclude Include="longest_valid_bracket.h" />
