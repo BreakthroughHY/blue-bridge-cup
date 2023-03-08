@@ -71,9 +71,9 @@ int SolutionDifferentPathII::uniquePathsWithObstacles(vector<vector<int>>& obsta
 		dpC[i] = 1; // 没遇到障碍到本位置的路径加一
 	}
 
-	for (int i = 1; i < n; ++i)
+	for (int i = 1; i < m; ++i)
 	{
-		for (int j = 1; j < m; ++j)
+		for (int j = 1; j < n; ++j)
 		{
 			if (obstacleGrid[i][j]) // 本位置存在障碍
 			{
