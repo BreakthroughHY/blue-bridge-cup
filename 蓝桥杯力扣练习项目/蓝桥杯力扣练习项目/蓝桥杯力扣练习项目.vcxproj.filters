@@ -63,6 +63,9 @@
     <ClCompile Include="different_paths.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="different_paths_II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -111,6 +114,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="different_paths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="different_paths_II.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

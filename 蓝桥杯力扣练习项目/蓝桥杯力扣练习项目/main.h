@@ -39,4 +39,6 @@ using namespace std;
 
 #include "different_paths.h" // 不同路径	Different paths
 
+#include "different_paths_II.h" // 不同路径 II		Different path II
+
 #endif // !__MAIN_H__

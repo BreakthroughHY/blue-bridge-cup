@@ -32,7 +32,9 @@ int main()
 
 	//jumpingGames(); // 跳跃游戏		Jump game
 
-	differentPaths(); // 不同路径	Different paths
+	//differentPaths(); // 不同路径	Different paths
+
+	differentPathsII(); // 不同路径 II		Different path II
 
 	return 0;
 }
