@@ -37,4 +37,6 @@ using namespace std;
 
 #include "jump_game.h" // 跳跃游戏		Jump game
 
+#include "different_paths.h" // 不同路径	Different paths
+
 #endif // !__MAIN_H__

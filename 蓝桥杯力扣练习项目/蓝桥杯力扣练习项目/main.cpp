@@ -30,7 +30,9 @@ int main()
 
 	//architecturalTheArray(); // MaximumSubarrayAnd	最大子数组和 // 不使用暴力法，通过找规律写代码失败，考虑因素太多，目前觉得使用官网方法——动态规划优化过的暴力法
 
-	jumpingGames(); // 跳跃游戏		Jump game
+	//jumpingGames(); // 跳跃游戏		Jump game
+
+	differentPaths(); // 不同路径	Different paths
 
 	return 0;
 }

@@ -142,6 +142,7 @@
     <ClCompile Include="bracket_generating.cpp" />
     <ClCompile Include="connected_to_rainwater.cpp" />
     <ClCompile Include="count_prime.cpp" />
+    <ClCompile Include="different_paths.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
     <ClCompile Include="jump_game.cpp" />
     <ClCompile Include="jump_game_II.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="bracket_generating.h" />
     <ClInclude Include="connected_to_rainwater.h" />
     <ClInclude Include="count_prime.h" />
+    <ClInclude Include="different_paths.h" />
     <ClInclude Include="get_power_2_reorder.h" />
     <ClInclude Include="jump_game.h" />
     <ClInclude Include="jump_game_II.h" />
