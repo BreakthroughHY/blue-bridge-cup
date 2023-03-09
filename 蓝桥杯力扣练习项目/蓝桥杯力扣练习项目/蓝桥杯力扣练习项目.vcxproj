@@ -145,6 +145,7 @@
     <ClCompile Include="count_prime.cpp" />
     <ClCompile Include="different_paths.cpp" />
     <ClCompile Include="different_paths_II.cpp" />
+    <ClCompile Include="edit_distance.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
     <ClCompile Include="jump_game.cpp" />
     <ClCompile Include="jump_game_II.cpp" />
@@ -166,6 +167,7 @@
     <ClInclude Include="count_prime.h" />
     <ClInclude Include="different_paths.h" />
     <ClInclude Include="different_paths_II.h" />
+    <ClInclude Include="edit_distance.h" />
     <ClInclude Include="get_power_2_reorder.h" />
     <ClInclude Include="jump_game.h" />
     <ClInclude Include="jump_game_II.h" />

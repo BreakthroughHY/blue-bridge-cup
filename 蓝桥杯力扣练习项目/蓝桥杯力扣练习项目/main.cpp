@@ -38,7 +38,9 @@ int main()
 
 	//minimumPathAnd(); // ×îĞ¡Â·¾¶ºÍ		Minimum path and
 
-	climbStairs(); // ÅÀÂ¥Ìİ		climb stairs
+	//climbStairs(); // ÅÀÂ¥Ìİ		climb stairs
+
+	editDistance(); // ±à¼­¾àÀë	Edit distance
 
 	return 0;
 }

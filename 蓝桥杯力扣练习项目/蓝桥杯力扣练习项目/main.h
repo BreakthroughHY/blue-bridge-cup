@@ -45,4 +45,6 @@ using namespace std;
 
 #include "climb_stairs.h" // ÅÀÂ¥Ìİ		climb stairs
 
+#include "edit_distance.h" // ±à¼­¾àÀë	Edit distance
+
 #endif // !__MAIN_H__
