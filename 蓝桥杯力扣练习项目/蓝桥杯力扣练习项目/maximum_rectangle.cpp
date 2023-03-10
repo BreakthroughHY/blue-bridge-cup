@@ -20,6 +20,7 @@ int biggestRectangle()
 	return 0;
 }
 
+// 没啥说的，基本上是暴力枚举上优化时间。
 int SolutionMaximumRectangle::maximalRectangle(vector<vector<char>>& matrix)
 {
 	int m = matrix[0].size(); // 表格宽度
@@ -39,7 +40,7 @@ int SolutionMaximumRectangle::maximalRectangle(vector<vector<char>>& matrix)
 		{
 			if (matrix[i][j] == '1')
 			{
-				d[i][j] = d[i][j] + 1;
+				d[i][j] = d[i][j - 1] + 1;
 			}
 			cout << d[i][j] << "	";
 		}
@@ -52,21 +53,24 @@ int SolutionMaximumRectangle::maximalRectangle(vector<vector<char>>& matrix)
 	{
 		for (int j = 0; j < m; ++j)
 		{
-			int height = 1; // 矩形高
-			int heightTemp = i; // 检测阶段上边所在行
-			while (d[heightTemp][j] != 0 && heightTemp <= 0)
+			if (d[i][j] != 0)
 			{
-				int maximumWidth = 0;
-				for (int k = 0; k < height; ++k)
+				int height = 1; // 矩形高
+				int heightTemp = i; // 检测阶段上边所在行
+				while (heightTemp >= 0 && d[heightTemp][j] != 0)
 				{
-					maximumWidth = max(maximumWidth, d[heightTemp][j]);
+					int minimumWidth = m;
+					for (int k = 0; k < height; ++k)
+					{
+						minimumWidth = min(minimumWidth, d[i - k][j]);
+					}
+					mostWidespread = max(mostWidespread, height * minimumWidth);
+					++height;
+					--heightTemp;
 				}
-				mostWidespread = max(mostWidespread, height * maximumWidth);
-				++height;
 			}
 		}
 	}
-
 
 	return mostWidespread;
 }
