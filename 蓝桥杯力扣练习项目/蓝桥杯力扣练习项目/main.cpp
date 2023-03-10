@@ -40,7 +40,9 @@ int main()
 
 	//climbStairs(); // ÅÀÂ¥Ìİ		climb stairs
 
-	editDistance(); // ±à¼­¾àÀë	Edit distance
+	//editDistance(); // ±à¼­¾àÀë	Edit distance
+
+	biggestRectangle(); // ×î´ó¾ØĞÎ	Maximum rectangle
 
 	return 0;
 }

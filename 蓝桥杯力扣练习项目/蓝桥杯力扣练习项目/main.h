@@ -47,4 +47,6 @@ using namespace std;
 
 #include "edit_distance.h" // ±à¼­¾àÀë	Edit distance
 
+#include "maximum_rectangle.h" // ×î´ó¾ØÐÎ	Maximum rectangle
+
 #endif // !__MAIN_H__
