@@ -9,6 +9,8 @@
 class SolutionTimeBuySellStocks {
 public:
     int maxProfitBes(vector<int>& prices);
+
+    int maxProfitBes_Greedy(vector<int>& prices);
 };
 
 int bestTimeToBuyStocksII();
