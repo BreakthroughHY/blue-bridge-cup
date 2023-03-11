@@ -78,6 +78,9 @@
     <ClCompile Include="maximum_rectangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="container_most_water.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -141,6 +144,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="maximum_rectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="container_most_water.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
