@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="best_time_buy_sell_stocks_II.cpp" />
     <ClCompile Include="bracket_generating.cpp" />
     <ClCompile Include="climb_stairs.cpp" />
     <ClCompile Include="connected_to_rainwater.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="wildcard_matching.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="best_time_buy_sell_stocks_II.h" />
     <ClInclude Include="bracket_generating.h" />
     <ClInclude Include="climb_stairs.h" />
     <ClInclude Include="connected_to_rainwater.h" />

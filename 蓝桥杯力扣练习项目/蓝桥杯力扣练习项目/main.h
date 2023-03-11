@@ -51,4 +51,6 @@ using namespace std;
 
 #include "container_most_water.h" // 盛最多水的容器	Container with the most water
 
+#include "best_time_buy_sell_stocks_II.h" // 买卖股票的最佳时机 II	The best time to buy and sell stocks II
+
 #endif // !__MAIN_H__
