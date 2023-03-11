@@ -53,4 +53,6 @@ using namespace std;
 
 #include "best_time_buy_sell_stocks_II.h" // 买卖股票的最佳时机 II	The best time to buy and sell stocks II
 
+#include "gas_station.h" // 加油站	gas station
+
 #endif // !__MAIN_H__

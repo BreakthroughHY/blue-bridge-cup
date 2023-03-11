@@ -84,6 +84,9 @@
     <ClCompile Include="best_time_buy_sell_stocks_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="gas_station.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -153,6 +156,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="best_time_buy_sell_stocks_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gas_station.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
