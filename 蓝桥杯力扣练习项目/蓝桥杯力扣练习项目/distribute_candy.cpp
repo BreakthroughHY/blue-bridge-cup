@@ -52,12 +52,15 @@ int SolutionDistributeCandy::candy(vector<int>& ratings)
 				dissatisfactionWithAdd = 0;
 			}
 			leastNumberCandy += 1;
-			onNumberCandy = 1;
+			onNumberCandy = 1; 
 
-			if (n == f && ratings[i - f + 1] != ratings[i - f] && m >=2)
+			// 不使用过多空间，条件控制过于复杂，影响因素过多，工程中使用可以提高执行效率和内存使用
+			// 但开发时间长和容易出bug，综合评价适合大牛使用，
+			// 目前开发情况，仅剩条件未完成
+			if (n <= f && ratings[i - f + 1] != ratings[i - f] && m >=2)
 			{
-				++n;
-				++leastNumberCandy;
+				n += f - n + 1;
+				leastNumberCandy += f - n + 1;
 			}
 		}
 	}
