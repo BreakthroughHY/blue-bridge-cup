@@ -55,4 +55,6 @@ using namespace std;
 
 #include "gas_station.h" // 加油站	gas station
 
+#include "distribute_candy.h" // 分发糖果	Distribute candy
+
 #endif // !__MAIN_H__

@@ -87,6 +87,9 @@
     <ClCompile Include="gas_station.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="distribute_candy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -159,6 +162,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="gas_station.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="distribute_candy.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

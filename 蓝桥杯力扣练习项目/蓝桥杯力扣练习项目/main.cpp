@@ -50,7 +50,9 @@ int main()
 
 	//bestTimeToBuyStocksII(); // 买卖股票的最佳时机 II	The best time to buy and sell stocks II
 
-	gasStation(); // 加油站	gas station
+	//gasStation(); // 加油站	gas station
+
+	pointsCandy(); // 分发糖果	Distribute candy
 
 	return 0;
 }
