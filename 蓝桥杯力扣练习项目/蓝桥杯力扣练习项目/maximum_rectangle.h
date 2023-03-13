@@ -3,6 +3,7 @@
 #ifndef __MAXIMUM_RECTANGLE_H__
 #define __MAXIMUM_RECTANGLE_H__
 
+#include <algorithm>
 #include "main.h"
 
 // ÀàÉùÃ÷
