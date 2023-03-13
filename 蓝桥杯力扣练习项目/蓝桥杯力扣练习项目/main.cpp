@@ -52,7 +52,9 @@ int main()
 
 	//gasStation(); // 加油站	gas station
 
-	pointsCandy(); // 分发糖果	Distribute candy
+	//pointsCandy(); // 分发糖果	Distribute candy
+
+	maximumNumber(); // 最大数		Maximum
 
 	return 0;
 }

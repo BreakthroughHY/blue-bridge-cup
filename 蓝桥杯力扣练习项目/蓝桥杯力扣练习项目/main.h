@@ -57,4 +57,6 @@ using namespace std;
 
 #include "distribute_candy.h" // 分发糖果	Distribute candy
 
+#include "maximum.h" // 最大数	Maximum
+
 #endif // !__MAIN_H__

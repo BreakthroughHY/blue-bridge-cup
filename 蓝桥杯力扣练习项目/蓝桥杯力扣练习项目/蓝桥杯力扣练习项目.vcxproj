@@ -156,6 +156,7 @@
     <ClCompile Include="longest_palindromic_substring.cpp" />
     <ClCompile Include="longest_valid_bracket.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="maximum.cpp" />
     <ClCompile Include="maximum_rectangle.cpp" />
     <ClCompile Include="maximum_subarray_and.cpp" />
     <ClCompile Include="max_timeint_number_array.cpp" />
@@ -183,6 +184,7 @@
     <ClInclude Include="longest_palindromic_substring.h" />
     <ClInclude Include="longest_valid_bracket.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="maximum.h" />
     <ClInclude Include="maximum_rectangle.h" />
     <ClInclude Include="maximum_subarray_and.h" />
     <ClInclude Include="max_timeint_number_array.h" />
