@@ -54,7 +54,9 @@ int main()
 
 	//pointsCandy(); // 分发糖果	Distribute candy
 
-	maximumNumber(); // 最大数		Maximum
+	//maximumNumber(); // 最大数		Maximum
+
+	removeDuplicateLetters(); // 去除重复字母	Remove duplicate letters
 
 	return 0;
 }

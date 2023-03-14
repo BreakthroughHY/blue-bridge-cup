@@ -59,4 +59,6 @@ using namespace std;
 
 #include "maximum.h" // 最大数	Maximum
 
+#include "remove_duplicate_letters.h" // 去除重复字母	Remove duplicate letters
+
 #endif // !__MAIN_H__

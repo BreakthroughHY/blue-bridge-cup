@@ -162,6 +162,7 @@
     <ClCompile Include="max_timeint_number_array.cpp" />
     <ClCompile Include="minimum_path_and.cpp" />
     <ClCompile Include="mountain_array.cpp" />
+    <ClCompile Include="remove_duplicate_letters.cpp" />
     <ClCompile Include="sum_of_continuous_integers.cpp" />
     <ClCompile Include="super_number_palindromes.cpp" />
     <ClCompile Include="wildcard_matching.cpp" />
@@ -190,6 +191,7 @@
     <ClInclude Include="max_timeint_number_array.h" />
     <ClInclude Include="minimum_path_and.h" />
     <ClInclude Include="mountain_array.h" />
+    <ClInclude Include="remove_duplicate_letters.h" />
     <ClInclude Include="sum_of_continuous_integers.h" />
     <ClInclude Include="super_number_palindromes.h" />
     <ClInclude Include="wildcard_matching.h" />
