@@ -44,6 +44,8 @@ int main()
 
 	//biggestRectangle(); // 最大矩形	Maximum rectangle
 
+	disturbString(); // 扰乱字符串	Disturb string
+
 	// 贪心算法---------------------------------------------------------------------------------------------------
 
 	//containersWaterAreMost(); // 盛最多水的容器	Container with the most water
@@ -56,7 +58,7 @@ int main()
 
 	//maximumNumber(); // 最大数		Maximum
 
-	removeDuplicateLetters(); // 去除重复字母	Remove duplicate letters
+	//removeDuplicateLetters(); // 去除重复字母	Remove duplicate letters
 
 	return 0;
 }

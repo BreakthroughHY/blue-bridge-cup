@@ -61,4 +61,6 @@ using namespace std;
 
 #include "remove_duplicate_letters.h" // È¥³ıÖØ¸´×ÖÄ¸	Remove duplicate letters
 
+#include "disturb_string.h" // ÈÅÂÒ×Ö·û´®	Disturb string
+
 #endif // !__MAIN_H__

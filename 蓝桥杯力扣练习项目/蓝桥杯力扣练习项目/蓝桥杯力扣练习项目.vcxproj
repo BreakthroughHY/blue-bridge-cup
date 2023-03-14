@@ -148,6 +148,7 @@
     <ClCompile Include="different_paths.cpp" />
     <ClCompile Include="different_paths_II.cpp" />
     <ClCompile Include="distribute_candy.cpp" />
+    <ClCompile Include="disturb_string.cpp" />
     <ClCompile Include="edit_distance.cpp" />
     <ClCompile Include="gas_station.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
@@ -177,6 +178,7 @@
     <ClInclude Include="different_paths.h" />
     <ClInclude Include="different_paths_II.h" />
     <ClInclude Include="distribute_candy.h" />
+    <ClInclude Include="disturb_string.h" />
     <ClInclude Include="edit_distance.h" />
     <ClInclude Include="gas_station.h" />
     <ClInclude Include="get_power_2_reorder.h" />
