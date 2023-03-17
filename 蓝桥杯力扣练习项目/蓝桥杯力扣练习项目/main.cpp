@@ -44,7 +44,9 @@ int main()
 
 	//biggestRectangle(); // 最大矩形	Maximum rectangle
 
-	disturbString(); // 扰乱字符串	Disturb string
+	//disturbString(); // 扰乱字符串	Disturb string
+
+	decodingMethod(); // 解码方法	Decoding method
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 

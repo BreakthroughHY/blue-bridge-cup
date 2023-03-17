@@ -63,4 +63,6 @@ using namespace std;
 
 #include "disturb_string.h" // ÈÅÂÒ×Ö·û´®	Disturb string
 
+#include "decoding_method.h" // ½âÂë·½·¨	Decoding method
+
 #endif // !__MAIN_H__

@@ -145,6 +145,7 @@
     <ClCompile Include="connected_to_rainwater.cpp" />
     <ClCompile Include="container_most_water.cpp" />
     <ClCompile Include="count_prime.cpp" />
+    <ClCompile Include="decoding_method.cpp" />
     <ClCompile Include="different_paths.cpp" />
     <ClCompile Include="different_paths_II.cpp" />
     <ClCompile Include="distribute_candy.cpp" />
@@ -175,6 +176,7 @@
     <ClInclude Include="connected_to_rainwater.h" />
     <ClInclude Include="container_most_water.h" />
     <ClInclude Include="count_prime.h" />
+    <ClInclude Include="decoding_method.h" />
     <ClInclude Include="different_paths.h" />
     <ClInclude Include="different_paths_II.h" />
     <ClInclude Include="distribute_candy.h" />
