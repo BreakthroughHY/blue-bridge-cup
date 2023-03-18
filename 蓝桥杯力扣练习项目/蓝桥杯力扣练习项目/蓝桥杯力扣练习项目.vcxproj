@@ -153,6 +153,7 @@
     <ClCompile Include="edit_distance.cpp" />
     <ClCompile Include="gas_station.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
+    <ClCompile Include="interlaced_string.cpp" />
     <ClCompile Include="jump_game.cpp" />
     <ClCompile Include="jump_game_II.cpp" />
     <ClCompile Include="longest_palindromic_substring.cpp" />
@@ -184,6 +185,7 @@
     <ClInclude Include="edit_distance.h" />
     <ClInclude Include="gas_station.h" />
     <ClInclude Include="get_power_2_reorder.h" />
+    <ClInclude Include="interlaced_string.h" />
     <ClInclude Include="jump_game.h" />
     <ClInclude Include="jump_game_II.h" />
     <ClInclude Include="longest_palindromic_substring.h" />

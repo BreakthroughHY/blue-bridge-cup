@@ -65,4 +65,6 @@ using namespace std;
 
 #include "decoding_method.h" // 解码方法	Decoding method
 
+#include "interlaced_string.h" // 交错字符串	Interlaced String
+
 #endif // !__MAIN_H__

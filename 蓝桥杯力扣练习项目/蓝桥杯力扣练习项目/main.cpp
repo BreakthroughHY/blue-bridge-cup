@@ -46,7 +46,9 @@ int main()
 
 	//disturbString(); // 扰乱字符串	Disturb string
 
-	decodingMethod(); // 解码方法	Decoding method
+	//decodingMethod(); // 解码方法	Decoding method
+
+	staggeredStr(); // 交错字符串	Interlaced String
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 
