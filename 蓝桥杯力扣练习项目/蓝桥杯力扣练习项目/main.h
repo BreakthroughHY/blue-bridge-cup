@@ -67,4 +67,6 @@ using namespace std;
 
 #include "interlaced_string.h" // 交错字符串	Interlaced String
 
+#include "integer_to_roman_numeral.h" // 整形转罗马数字	Integer to Roman Numeral
+
 #endif // !__MAIN_H__

@@ -153,6 +153,7 @@
     <ClCompile Include="edit_distance.cpp" />
     <ClCompile Include="gas_station.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
+    <ClCompile Include="integer_to_roman_numeral.cpp" />
     <ClCompile Include="interlaced_string.cpp" />
     <ClCompile Include="jump_game.cpp" />
     <ClCompile Include="jump_game_II.cpp" />
@@ -185,6 +186,7 @@
     <ClInclude Include="edit_distance.h" />
     <ClInclude Include="gas_station.h" />
     <ClInclude Include="get_power_2_reorder.h" />
+    <ClInclude Include="integer_to_roman_numeral.h" />
     <ClInclude Include="interlaced_string.h" />
     <ClInclude Include="jump_game.h" />
     <ClInclude Include="jump_game_II.h" />

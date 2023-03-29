@@ -48,7 +48,7 @@ int main()
 
 	//decodingMethod(); // 解码方法	Decoding method
 
-	staggeredStr(); // 交错字符串	Interlaced String
+	//staggeredStr(); // 交错字符串	Interlaced String
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 
@@ -63,6 +63,10 @@ int main()
 	//maximumNumber(); // 最大数		Maximum
 
 	//removeDuplicateLetters(); // 去除重复字母	Remove duplicate letters
+
+	// 哈希表---------------------------------------------------------------------
+
+	integerRomaNum(); // 整形转罗马数字	Integer to Roman Numeral
 
 	return 0;
 }
