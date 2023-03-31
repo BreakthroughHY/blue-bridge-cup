@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="alphabetical_combination_of_phone_numbers.cpp" />
     <ClCompile Include="best_time_buy_sell_stocks_II.cpp" />
     <ClCompile Include="bracket_generating.cpp" />
     <ClCompile Include="climb_stairs.cpp" />
@@ -173,6 +174,7 @@
     <ClCompile Include="wildcard_matching.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="alphabetical_combination_of_phone_numbers.h" />
     <ClInclude Include="best_time_buy_sell_stocks_II.h" />
     <ClInclude Include="bracket_generating.h" />
     <ClInclude Include="climb_stairs.h" />

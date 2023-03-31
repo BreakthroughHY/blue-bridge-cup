@@ -71,4 +71,6 @@ using namespace std;
 
 #include "roman_numeral_to_integer.h" // 罗马数字转整数	Roman Numeral to Integer
 
+#include "alphabetical_combination_of_phone_numbers.h" // 电话号码的字母组合	Alphabetical combination of phone numbers
+
 #endif // !__MAIN_H__
