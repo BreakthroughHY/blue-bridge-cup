@@ -70,7 +70,9 @@ int main()
 
 	//romanNumeralToInteger(); // 罗马数字转整数	Roman Numeral to Integer
 
-	numberLetterCombinations(); // 电话号码的字母组合	Alphabetical combination of phone numbers
+	//numberLetterCombinations(); // 电话号码的字母组合	Alphabetical combination of phone numbers
+
+	allWordsInSeriesSequenceNumbers(); // 串联所有单词的子串	Concatenate substrings of all words
 
 	return 0;
 }

@@ -73,4 +73,6 @@ using namespace std;
 
 #include "alphabetical_combination_of_phone_numbers.h" // 电话号码的字母组合	Alphabetical combination of phone numbers
 
+#include "concatenate_substrings_of_all_words.h" // 串联所有单词的子串	Concatenate substrings of all words
+
 #endif // !__MAIN_H__

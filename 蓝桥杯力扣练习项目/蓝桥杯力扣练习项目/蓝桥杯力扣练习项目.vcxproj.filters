@@ -114,6 +114,9 @@
     <ClCompile Include="alphabetical_combination_of_phone_numbers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="concatenate_substrings_of_all_words.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -213,6 +216,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="alphabetical_combination_of_phone_numbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="concatenate_substrings_of_all_words.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

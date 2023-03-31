@@ -143,6 +143,7 @@
     <ClCompile Include="best_time_buy_sell_stocks_II.cpp" />
     <ClCompile Include="bracket_generating.cpp" />
     <ClCompile Include="climb_stairs.cpp" />
+    <ClCompile Include="concatenate_substrings_of_all_words.cpp" />
     <ClCompile Include="connected_to_rainwater.cpp" />
     <ClCompile Include="container_most_water.cpp" />
     <ClCompile Include="count_prime.cpp" />
@@ -178,6 +179,7 @@
     <ClInclude Include="best_time_buy_sell_stocks_II.h" />
     <ClInclude Include="bracket_generating.h" />
     <ClInclude Include="climb_stairs.h" />
+    <ClInclude Include="concatenate_substrings_of_all_words.h" />
     <ClInclude Include="connected_to_rainwater.h" />
     <ClInclude Include="container_most_water.h" />
     <ClInclude Include="count_prime.h" />
