@@ -5,6 +5,7 @@
 
 #include <map> // 对组容器，使用哈希表方便
 #include "main.h"
+#include "roman_numeral_to_integer.h"
 
 // 类声明
 class SolutionIntRomanNum {

@@ -6,12 +6,16 @@ int integerRomaNum()
 {
 	// 创建对象
 	SolutionIntRomanNum s;
+	SolutionRomanNumeralToInteger ss; // 将罗马数字转化为整数的函数，两个题相互验证正确性
 
 	DWORD start_time = GetTickCount();
-
-	cout << s.intToRoman(911) << endl;
-	/*for (int i = 1; i < 4000; ++i)
-		cout << s.intToRoman(i) << endl;*/
+	int count = 0;
+	//cout << s.intToRoman(911) << endl;
+	for (int i = 1; i < 4000; ++i)
+		//cout << s.intToRoman(i) << endl;
+		if (i == ss.romanToInt(s.intToRoman(i)))
+			++count;
+	cout << count << endl;
 
 	DWORD end_time = GetTickCount();
 
