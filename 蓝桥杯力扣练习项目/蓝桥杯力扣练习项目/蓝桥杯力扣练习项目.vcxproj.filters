@@ -108,6 +108,9 @@
     <ClCompile Include="integer_to_roman_numeral.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="roman_numeral_to_integer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -201,6 +204,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="integer_to_roman_numeral.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="roman_numeral_to_integer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

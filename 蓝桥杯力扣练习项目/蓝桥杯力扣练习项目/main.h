@@ -69,4 +69,6 @@ using namespace std;
 
 #include "integer_to_roman_numeral.h" // 整形转罗马数字	Integer to Roman Numeral
 
+#include "roman_numeral_to_integer.h" // 罗马数字转整数	Roman Numeral to Integer
+
 #endif // !__MAIN_H__

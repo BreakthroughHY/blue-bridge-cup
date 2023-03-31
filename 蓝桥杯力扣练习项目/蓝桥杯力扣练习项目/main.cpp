@@ -66,7 +66,9 @@ int main()
 
 	// 哈希表---------------------------------------------------------------------
 
-	integerRomaNum(); // 整形转罗马数字	Integer to Roman Numeral
+	//integerRomaNum(); // 整形转罗马数字	Integer to Roman Numeral
+
+	romanNumeralToInteger(); // 罗马数字转整数	Roman Numeral to Integer
 
 	return 0;
 }
