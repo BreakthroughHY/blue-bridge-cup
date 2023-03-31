@@ -1,4 +1,5 @@
 #include "integer_to_roman_numeral.h"
+//#include <unordered_map>
 #include <algorithm>
 
 int integerRomaNum()
@@ -9,6 +10,8 @@ int integerRomaNum()
 	DWORD start_time = GetTickCount();
 
 	cout << s.intToRoman(911) << endl;
+	/*for (int i = 1; i < 4000; ++i)
+		cout << s.intToRoman(i) << endl;*/
 
 	DWORD end_time = GetTickCount();
 
@@ -21,7 +24,6 @@ string SolutionIntRomanNum::intToRoman(int num)
 {
 	map<int, string> m; // 创建队组容器
 
-	m[0] = "";
 	m[1] = "I";
 	m[4] = "IV";
 	m[5] = "V";
@@ -38,13 +40,26 @@ string SolutionIntRomanNum::intToRoman(int num)
 	
 	string ret = "";
 
-	for (map<int, string>::iterator it = --m.end(); it != m.begin(); --it)
+	for (auto a : m)
+		cout << a.first << "		" << a.second << endl;
+	/*for (map<int, string>::iterator it = --m.end(); it != m.begin(); --it)
 	{
-		//cout << (*it).first << "	" << (*it).second << endl;
 		while (num >= (*it).first)
 		{
-			num -= num;
+			num -= (*it).first;
 			ret += (*it).second;
+		}
+
+		if (num == 0)
+			return ret;
+	}*/
+
+	for (map<int, string>::reverse_iterator it = m.rbegin(); it != m.rend(); ++it)
+	{
+		while (num >= it->first)
+		{
+			num -= it->first;
+			ret += it->second;
 		}
 
 		if (num == 0)
