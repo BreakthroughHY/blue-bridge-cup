@@ -153,6 +153,7 @@
     <ClCompile Include="distribute_candy.cpp" />
     <ClCompile Include="disturb_string.cpp" />
     <ClCompile Include="edit_distance.cpp" />
+    <ClCompile Include="effective_sudoku.cpp" />
     <ClCompile Include="gas_station.cpp" />
     <ClCompile Include="get_power_2_reorder.cpp" />
     <ClCompile Include="integer_to_roman_numeral.cpp" />
@@ -189,6 +190,7 @@
     <ClInclude Include="distribute_candy.h" />
     <ClInclude Include="disturb_string.h" />
     <ClInclude Include="edit_distance.h" />
+    <ClInclude Include="effective_sudoku.h" />
     <ClInclude Include="gas_station.h" />
     <ClInclude Include="get_power_2_reorder.h" />
     <ClInclude Include="integer_to_roman_numeral.h" />

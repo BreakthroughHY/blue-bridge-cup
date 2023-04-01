@@ -72,7 +72,9 @@ int main()
 
 	//numberLetterCombinations(); // 电话号码的字母组合	Alphabetical combination of phone numbers
 
-	allWordsInSeriesSequenceNumbers(); // 串联所有单词的子串	Concatenate substrings of all words
+	//allWordsInSeriesSequenceNumbers(); // 串联所有单词的子串	Concatenate substrings of all words
+
+	validSudoku(); // 有效的数独	Effective Sudoku
 
 	return 0;
 }

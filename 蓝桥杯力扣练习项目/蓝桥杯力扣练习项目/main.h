@@ -75,4 +75,6 @@ using namespace std;
 
 #include "concatenate_substrings_of_all_words.h" // 串联所有单词的子串	Concatenate substrings of all words
 
+#include "effective_sudoku.h" // 有效的数独	Effective Sudoku
+
 #endif // !__MAIN_H__
