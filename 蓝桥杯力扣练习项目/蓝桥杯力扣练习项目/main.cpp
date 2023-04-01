@@ -74,7 +74,9 @@ int main()
 
 	//allWordsInSeriesSequenceNumbers(); // 串联所有单词的子串	Concatenate substrings of all words
 
-	validSudoku(); // 有效的数独	Effective Sudoku
+	//validSudoku(); // 有效的数独	Effective Sudoku
+
+	theirIndependence(); // 解数独	Solving sudoku
 
 	return 0;
 }

@@ -77,4 +77,6 @@ using namespace std;
 
 #include "effective_sudoku.h" // 有效的数独	Effective Sudoku
 
+#include "solving_sudoku.h" // 解数独	Solving sudoku
+
 #endif // !__MAIN_H__

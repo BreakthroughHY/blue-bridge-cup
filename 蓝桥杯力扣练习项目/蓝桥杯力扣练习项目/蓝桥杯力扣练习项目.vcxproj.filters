@@ -120,6 +120,9 @@
     <ClCompile Include="effective_sudoku.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="solving_sudoku.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -225,6 +228,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="effective_sudoku.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="solving_sudoku.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
