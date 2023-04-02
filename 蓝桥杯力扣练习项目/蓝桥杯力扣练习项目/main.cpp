@@ -78,7 +78,9 @@ int main()
 
 	//theirIndependence(); // 解数独	Solving sudoku
 
-	lackTheFirstPositiveNumber(); // 缺失的第一个正数	Missing first positive number
+	//lackTheFirstPositiveNumber(); // 缺失的第一个正数	Missing first positive number
+
+	lettersEctopicWordGroups(); // 字母异位词分组	Alphabetic heterotopic word grouping
 
 	return 0;
 }

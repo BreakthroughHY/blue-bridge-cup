@@ -81,4 +81,6 @@ using namespace std;
 
 #include "missing_first_positive_number.h" // 缺失的第一个正数	Missing first positive number
 
+#include "alphabetic_heterotopic_word_grouping.h" // 字母异位词分组	Alphabetic heterotopic word grouping
+
 #endif // !__MAIN_H__
