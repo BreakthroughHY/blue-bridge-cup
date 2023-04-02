@@ -168,6 +168,7 @@
     <ClCompile Include="maximum_subarray_and.cpp" />
     <ClCompile Include="max_timeint_number_array.cpp" />
     <ClCompile Include="minimum_path_and.cpp" />
+    <ClCompile Include="missing_first_positive_number.cpp" />
     <ClCompile Include="mountain_array.cpp" />
     <ClCompile Include="remove_duplicate_letters.cpp" />
     <ClCompile Include="roman_numeral_to_integer.cpp" />
@@ -206,6 +207,7 @@
     <ClInclude Include="maximum_subarray_and.h" />
     <ClInclude Include="max_timeint_number_array.h" />
     <ClInclude Include="minimum_path_and.h" />
+    <ClInclude Include="missing_first_positive_number.h" />
     <ClInclude Include="mountain_array.h" />
     <ClInclude Include="remove_duplicate_letters.h" />
     <ClInclude Include="roman_numeral_to_integer.h" />

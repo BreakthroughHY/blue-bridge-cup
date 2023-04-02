@@ -76,7 +76,9 @@ int main()
 
 	//validSudoku(); // 有效的数独	Effective Sudoku
 
-	theirIndependence(); // 解数独	Solving sudoku
+	//theirIndependence(); // 解数独	Solving sudoku
+
+	lackTheFirstPositiveNumber(); // 缺失的第一个正数	Missing first positive number
 
 	return 0;
 }

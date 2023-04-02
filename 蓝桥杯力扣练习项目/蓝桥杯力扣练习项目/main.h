@@ -79,4 +79,6 @@ using namespace std;
 
 #include "solving_sudoku.h" // 解数独	Solving sudoku
 
+#include "missing_first_positive_number.h" // 缺失的第一个正数	Missing first positive number
+
 #endif // !__MAIN_H__
