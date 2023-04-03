@@ -129,6 +129,9 @@
     <ClCompile Include="alphabetic_heterotopic_word_grouping.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="matrix_zeroing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -243,6 +246,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="alphabetic_heterotopic_word_grouping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_zeroing.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

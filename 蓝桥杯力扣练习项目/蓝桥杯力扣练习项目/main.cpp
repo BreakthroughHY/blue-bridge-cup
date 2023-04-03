@@ -80,7 +80,9 @@ int main()
 
 	//lackTheFirstPositiveNumber(); // 缺失的第一个正数	Missing first positive number
 
-	lettersEctopicWordGroups(); // 字母异位词分组	Alphabetic heterotopic word grouping
+	//lettersEctopicWordGroups(); // 字母异位词分组	Alphabetic heterotopic word grouping
+
+	matrixZero(); // 矩阵置零	Matrix Zeroing
 
 	return 0;
 }
