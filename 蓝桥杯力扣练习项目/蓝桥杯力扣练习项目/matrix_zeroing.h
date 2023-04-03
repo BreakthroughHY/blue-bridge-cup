@@ -3,7 +3,7 @@
 #ifndef __MATRIX_ZEROING_H__
 #define __MATRIX_ZEROING_H__
 
-#include <set>
+#include <vector>
 #include "main.h"
 
 // ÀàÉùÃ÷

@@ -32,33 +32,21 @@ void SolutionMatrixZeroing::setZeroes(vector<vector<int>>& matrix)
 {
 	int m = matrix.size();
 	int n = matrix[0].size();
-	set<int> row, col;
+	vector<bool> row(m, false), col(n, false);
+
+	for (int i = 0; i < m; ++i)
+		for (int j = 0; j < n; ++j)
+			if (!matrix[i][j])
+				row[i] = col[j] = true;
 
 	for (int i = 0; i < m; ++i)
 	{
 		for (int j = 0; j < n; ++j)
 		{
-			if (!matrix[i][j])
+			if (row[i] || col[j])
 			{
-				row.insert(i);
-				col.insert(j);
+				matrix[i][j] = 0;
 			}
-		}
-	}
-
-	for (auto i : row)
-	{
-		for (int j = 0; j < n; ++j)
-		{
-			matrix[i][j] = 0;
-		}
-	}
-
-	for (auto j : col)
-	{
-		for (int i = 0; i < n; ++i)
-		{
-			matrix[i][j] = 0;
 		}
 	}
 }
