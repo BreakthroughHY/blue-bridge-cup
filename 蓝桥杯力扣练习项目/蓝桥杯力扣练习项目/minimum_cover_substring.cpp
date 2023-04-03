@@ -7,7 +7,7 @@ int minimumCoverSubstring()
 
 	DWORD start_time = GetTickCount();
 
-	cout << s.minWindow("AADOBECODEBANC", "ABC") << endl;
+	cout << s.minWindow("a", "b") << endl;
 
 	DWORD end_time = GetTickCount();
 
@@ -22,7 +22,10 @@ string SolutionMinimumCoverSubstring::minWindow(string s, string t)
 	unordered_map<char, int> freq; // 记录目标字符串中的字母频数
 	int left = 0, right = 0;
 	int strMin = INT_MAX;
-	int l, r;
+	int l = 0, r = 0;
+
+	if (n < t.size())
+		return "";
 
 	for (int i = 0; i < t.size(); ++i)
 		--freq[t[i]];
@@ -37,21 +40,21 @@ string SolutionMinimumCoverSubstring::minWindow(string s, string t)
 				r = right;
 				strMin = r - l;
 			}
-			--freq[s[left]];
+			if (!(--freq[s[left]])) // 容器内容为0清除
+				freq.erase(s[left]);
 			++left;
 		}
 		else
 		{
-			++freq[s[right]];
+			if (!(++freq[s[right]]))
+				freq.erase(s[right]);
 			++right;
 		}
 	}
-
-	//for (auto a : freq)
-	//	cout << a.first << "		" << a.second << endl;
-	cout << l << "		" << r << endl;
-
-	return "";
+	
+	if (strMin == INT_MAX)
+		return "";
+	return s.substr(l, strMin);
 }
 
 // 检查无序map容器内是否全部为非负数
