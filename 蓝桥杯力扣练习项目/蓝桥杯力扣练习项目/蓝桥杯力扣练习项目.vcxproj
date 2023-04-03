@@ -169,6 +169,7 @@
     <ClCompile Include="maximum_rectangle.cpp" />
     <ClCompile Include="maximum_subarray_and.cpp" />
     <ClCompile Include="max_timeint_number_array.cpp" />
+    <ClCompile Include="minimum_cover_substring.cpp" />
     <ClCompile Include="minimum_path_and.cpp" />
     <ClCompile Include="missing_first_positive_number.cpp" />
     <ClCompile Include="mountain_array.cpp" />
@@ -210,6 +211,7 @@
     <ClInclude Include="maximum_rectangle.h" />
     <ClInclude Include="maximum_subarray_and.h" />
     <ClInclude Include="max_timeint_number_array.h" />
+    <ClInclude Include="minimum_cover_substring.h" />
     <ClInclude Include="minimum_path_and.h" />
     <ClInclude Include="missing_first_positive_number.h" />
     <ClInclude Include="mountain_array.h" />

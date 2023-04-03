@@ -132,6 +132,9 @@
     <ClCompile Include="matrix_zeroing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="minimum_cover_substring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -249,6 +252,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="matrix_zeroing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minimum_cover_substring.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

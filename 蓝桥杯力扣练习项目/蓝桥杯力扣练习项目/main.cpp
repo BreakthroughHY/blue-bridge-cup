@@ -82,7 +82,9 @@ int main()
 
 	//lettersEctopicWordGroups(); // ×ÖÄ¸ÒìÎ»´Ê·Ö×é	Alphabetic heterotopic word grouping
 
-	matrixZero(); // ¾ØÕóÖÃÁã		Matrix Zeroing
+	//matrixZero(); // ¾ØÕóÖÃÁã		Matrix Zeroing
+
+	minimumCoverSubstring(); // ×îĞ¡¸²¸Ç×Ó´®	Minimum cover substring
 
 	return 0;
 }

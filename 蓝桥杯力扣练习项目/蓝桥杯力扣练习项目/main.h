@@ -85,4 +85,6 @@ using namespace std;
 
 #include "matrix_zeroing.h" // ¾ØÕóÖÃÁã	Matrix Zeroing
 
+#include "minimum_cover_substring.h" // ×îĞ¡¸²¸Ç×Ó´®	Minimum cover substring
+
 #endif // !__MAIN_H__
