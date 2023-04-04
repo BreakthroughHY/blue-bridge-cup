@@ -86,7 +86,9 @@ int main()
 
 	//minimumCoverSubstring(); // 最小覆盖子串	Minimum cover substring
 
-	onceUponTimeSequenceTheSequenceStructureBinaryTreeTraversalSequence(); // 从前序与中序遍历序列构造二叉树	Constructing binary tree from Pre order and Middle order Traversal Sequences
+	//onceUponTimeSequenceTheSequenceStructureBinaryTreeTraversalSequence(); // 从前序与中序遍历序列构造二叉树	Constructing binary tree from Pre order and Middle order Traversal Sequences
+
+	fromSequenceWithSequenceStructureBinaryTreeTraversalSequence(); // 从中序与后序遍历序列构造二叉树	Constructing binary tree from Middle and Post Order Traversal Sequences
 
 	return 0;
 }

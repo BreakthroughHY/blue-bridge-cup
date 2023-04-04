@@ -1,4 +1,4 @@
-#include "constructing_binary_tree_from_pre_order_and_middle_order traversal_sequences.h"
+#include "constructing_binary_tree_from_middle_and_post_order_traversal_sequences.h"
 
 int onceUponTimeSequenceTheSequenceStructureBinaryTreeTraversalSequence()
 {

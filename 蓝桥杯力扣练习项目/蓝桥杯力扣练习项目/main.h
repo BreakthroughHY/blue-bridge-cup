@@ -87,7 +87,8 @@ using namespace std;
 
 #include "minimum_cover_substring.h" // 最小覆盖子串	Minimum cover substring
 
-#include "constructing_binary_tree_from_pre_order_and_middle_order traversal_sequences.h" // 从前序与中序遍历序列构造二叉树	Constructing binary tree from Pre order and Middle order Traversal Sequences
+#include "constructing_binary_tree_from_pre_order_and_middle_order_traversal_sequences.h" // 从前序与中序遍历序列构造二叉树	Constructing binary tree from Pre order and Middle order Traversal Sequences
 
+#include "constructing_binary_tree_from_middle_and_post_order_traversal_sequences.h" // 从中序与后序遍历序列构造二叉树	Constructing binary tree from Middle and Post Order Traversal Sequences
 
 #endif // !__MAIN_H__

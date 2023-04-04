@@ -146,7 +146,8 @@
     <ClCompile Include="climb_stairs.cpp" />
     <ClCompile Include="concatenate_substrings_of_all_words.cpp" />
     <ClCompile Include="connected_to_rainwater.cpp" />
-    <ClCompile Include="constructing_binary_tree_from_pre_order_and_middle_order traversal_sequences.cpp" />
+    <ClCompile Include="constructing_binary_tree_from_middle_and_post_order_traversal_sequences.cpp" />
+    <ClCompile Include="constructing_binary_tree_from_pre_order_and_middle_order_traversal_sequences.cpp" />
     <ClCompile Include="container_most_water.cpp" />
     <ClCompile Include="count_prime.cpp" />
     <ClCompile Include="decoding_method.cpp" />
@@ -189,7 +190,8 @@
     <ClInclude Include="climb_stairs.h" />
     <ClInclude Include="concatenate_substrings_of_all_words.h" />
     <ClInclude Include="connected_to_rainwater.h" />
-    <ClInclude Include="constructing_binary_tree_from_pre_order_and_middle_order traversal_sequences.h" />
+    <ClInclude Include="constructing_binary_tree_from_middle_and_post_order_traversal_sequences.h" />
+    <ClInclude Include="constructing_binary_tree_from_pre_order_and_middle_order_traversal_sequences.h" />
     <ClInclude Include="container_most_water.h" />
     <ClInclude Include="count_prime.h" />
     <ClInclude Include="decoding_method.h" />
