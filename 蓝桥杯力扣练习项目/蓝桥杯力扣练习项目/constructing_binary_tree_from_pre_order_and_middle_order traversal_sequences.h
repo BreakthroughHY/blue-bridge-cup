@@ -24,7 +24,7 @@ private:
 public:
 	TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder);
 
-	TreeNode* myBuildTree(vector<int>& preorder, vector<int>& inorder, int pLeft, int pRight, int iLeft, int iRight);
+	TreeNode* myBuildTree(vector<int>& preorder, vector<int>& inorder, int& pLeft, int iLeft, int iRight);
 };
 
 int onceUponTimeSequenceTheSequenceStructureBinaryTreeTraversalSequence();

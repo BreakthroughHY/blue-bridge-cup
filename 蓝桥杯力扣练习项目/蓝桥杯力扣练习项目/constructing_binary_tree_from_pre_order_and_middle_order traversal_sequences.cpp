@@ -27,20 +27,23 @@ TreeNode* SolutionConstructingBinaryTreeFromPreOrderandMiddleOrderTraversalSeque
 	for (int i = 0; i < n; ++i)
 		index[inorder[i]] = i;
 
-	return myBuildTree(preorder, inorder, 0, n, 0, n);
+	int nn = 0;
+	return myBuildTree(preorder, inorder, nn, 0, n);
 }
 
-TreeNode* SolutionConstructingBinaryTreeFromPreOrderandMiddleOrderTraversalSequences::myBuildTree(vector<int>& preorder, vector<int>& inorder, int pLeft, int pRight, int iLeft, int iRight)
+TreeNode* SolutionConstructingBinaryTreeFromPreOrderandMiddleOrderTraversalSequences::myBuildTree(vector<int>& preorder, vector<int>& inorder, int& pLeft, int iLeft, int iRight)
 {
 	if (iLeft == iRight)
 		return nullptr;
 
+	int temp;
+
 	TreeNode* root = new TreeNode(preorder[pLeft++]);
+	temp = pLeft;
 
-	root->left = myBuildTree(preorder, inorder, pLeft, pRight, 0, index[preorder[pLeft - 1]]);
+	root->left = myBuildTree(preorder, inorder, pLeft, iLeft, index[preorder[pLeft - 1]]);
 
-	root->right = root->left = myBuildTree(preorder, inorder, pLeft, pRight, 0, index[preorder[pLeft - 1]]);
-
+	root->right = myBuildTree(preorder, inorder, pLeft, index[preorder[temp - 1]] + 1, iRight);
 
 	return root;
 }
@@ -50,7 +53,7 @@ void binaryTreeSequenceTraversal(TreeNode* root)
 {
 	queue<TreeNode*> q;
 	
-	if (root)
+	if (root == NULL)
 		return;
 
 	q.push(root);
