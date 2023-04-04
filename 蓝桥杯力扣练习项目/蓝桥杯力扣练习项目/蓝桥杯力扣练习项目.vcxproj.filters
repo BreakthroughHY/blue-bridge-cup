@@ -135,6 +135,9 @@
     <ClCompile Include="minimum_cover_substring.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="constructing_binary_tree_from_pre_order_and_middle_order traversal_sequences.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -255,6 +258,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="minimum_cover_substring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="constructing_binary_tree_from_pre_order_and_middle_order traversal_sequences.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
