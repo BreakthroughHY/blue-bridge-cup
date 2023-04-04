@@ -27,15 +27,22 @@ TreeNode* SolutionConstructingBinaryTreeFromPreOrderandMiddleOrderTraversalSeque
 	for (int i = 0; i < n; ++i)
 		index[inorder[i]] = i;
 
-	return myBuildTree()
+	return myBuildTree(preorder, inorder, 0, n, 0, n);
 }
 
-TreeNode* SolutionConstructingBinaryTreeFromPreOrderandMiddleOrderTraversalSequences::myBuildTree(vector<int>& preorder, vector<int>& inorder)
+TreeNode* SolutionConstructingBinaryTreeFromPreOrderandMiddleOrderTraversalSequences::myBuildTree(vector<int>& preorder, vector<int>& inorder, int pLeft, int pRight, int iLeft, int iRight)
 {
+	if (iLeft == iRight)
+		return nullptr;
+
+	TreeNode* root = new TreeNode(preorder[pLeft++]);
+
+	root->left = myBuildTree(preorder, inorder, pLeft, pRight, 0, index[preorder[pLeft - 1]]);
+
+	root->right = root->left = myBuildTree(preorder, inorder, pLeft, pRight, 0, index[preorder[pLeft - 1]]);
 
 
-
-
+	return root;
 }
 
 // ¶þ²æÊ÷µÄ²ãÐò±éÀú
