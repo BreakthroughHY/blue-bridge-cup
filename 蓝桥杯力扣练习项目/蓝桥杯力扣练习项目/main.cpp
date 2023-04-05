@@ -94,7 +94,9 @@ int main()
 
 	//wordChain(); // 单词接龙	Word Chain
 
-	longestContinuousSequence(); // 最长连续序列	Longest continuous sequence
+	//longestContinuousSequence(); // 最长连续序列	Longest continuous sequence
+
+	cloningFigure(); // 克隆图	Clone Graph
 
 	return 0;
 }

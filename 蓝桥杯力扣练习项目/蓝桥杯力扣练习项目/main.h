@@ -97,4 +97,6 @@ using namespace std;
 
 #include "longest_continuous_sequence.h" // 最长连续序列	Longest continuous sequence
 
+#include "clone_graph.h" // 克隆图	Clone Graph
+
 #endif // !__MAIN_H__

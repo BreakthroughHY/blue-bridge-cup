@@ -150,6 +150,9 @@
     <ClCompile Include="longest_continuous_sequence.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="clone_graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -285,6 +288,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="longest_continuous_sequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clone_graph.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
