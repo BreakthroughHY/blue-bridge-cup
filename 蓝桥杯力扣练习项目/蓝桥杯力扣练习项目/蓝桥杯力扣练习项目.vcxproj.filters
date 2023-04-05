@@ -147,6 +147,9 @@
     <ClCompile Include="word_chain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="longest_continuous_sequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -279,6 +282,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="word_chain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="longest_continuous_sequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

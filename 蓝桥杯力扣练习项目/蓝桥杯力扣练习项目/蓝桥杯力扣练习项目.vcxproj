@@ -163,6 +163,7 @@
     <ClCompile Include="interlaced_string.cpp" />
     <ClCompile Include="jump_game.cpp" />
     <ClCompile Include="jump_game_II.cpp" />
+    <ClCompile Include="longest_continuous_sequence.cpp" />
     <ClCompile Include="longest_palindromic_substring.cpp" />
     <ClCompile Include="longest_valid_bracket.cpp" />
     <ClCompile Include="main.cpp" />
@@ -209,6 +210,7 @@
     <ClInclude Include="interlaced_string.h" />
     <ClInclude Include="jump_game.h" />
     <ClInclude Include="jump_game_II.h" />
+    <ClInclude Include="longest_continuous_sequence.h" />
     <ClInclude Include="longest_palindromic_substring.h" />
     <ClInclude Include="longest_valid_bracket.h" />
     <ClInclude Include="main.h" />

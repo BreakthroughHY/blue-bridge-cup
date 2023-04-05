@@ -92,7 +92,9 @@ int main()
 
 	//randomlyII(); // 单词接龙 II	Word Relay II
 
-	wordChain(); // 单词接龙	Word Chain
+	//wordChain(); // 单词接龙	Word Chain
+
+	longestContinuousSequence(); // 最长连续序列	Longest continuous sequence
 
 	return 0;
 }

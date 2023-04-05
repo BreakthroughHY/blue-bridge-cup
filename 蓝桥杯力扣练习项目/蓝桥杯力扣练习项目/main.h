@@ -95,4 +95,6 @@ using namespace std;
 
 #include "word_chain.h" // 单词接龙	Word Chain
 
+#include "longest_continuous_sequence.h" // 最长连续序列	Longest continuous sequence
+
 #endif // !__MAIN_H__
