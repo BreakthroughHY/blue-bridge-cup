@@ -141,6 +141,9 @@
     <ClCompile Include="constructing_binary_tree_from_middle_and_post_order_traversal_sequences.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="word_relay_II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -267,6 +270,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="constructing_binary_tree_from_middle_and_post_order_traversal_sequences.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="word_relay_II.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

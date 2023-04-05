@@ -88,7 +88,9 @@ int main()
 
 	//onceUponTimeSequenceTheSequenceStructureBinaryTreeTraversalSequence(); // 从前序与中序遍历序列构造二叉树	Constructing binary tree from Pre order and Middle order Traversal Sequences
 
-	fromSequenceWithSequenceStructureBinaryTreeTraversalSequence(); // 从中序与后序遍历序列构造二叉树	Constructing binary tree from Middle and Post Order Traversal Sequences
+	//fromSequenceWithSequenceStructureBinaryTreeTraversalSequence(); // 从中序与后序遍历序列构造二叉树	Constructing binary tree from Middle and Post Order Traversal Sequences
+
+	randomlyII(); // 单词接龙 II	Word Relay II
 
 	return 0;
 }

@@ -91,4 +91,6 @@ using namespace std;
 
 #include "constructing_binary_tree_from_middle_and_post_order_traversal_sequences.h" // 从中序与后序遍历序列构造二叉树	Constructing binary tree from Middle and Post Order Traversal Sequences
 
+#include "word_relay_II.h" // 单词接龙 II	Word Relay II
+
 #endif // !__MAIN_H__

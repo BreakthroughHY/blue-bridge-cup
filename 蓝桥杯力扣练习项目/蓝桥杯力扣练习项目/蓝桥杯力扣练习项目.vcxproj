@@ -181,6 +181,7 @@
     <ClCompile Include="sum_of_continuous_integers.cpp" />
     <ClCompile Include="super_number_palindromes.cpp" />
     <ClCompile Include="wildcard_matching.cpp" />
+    <ClCompile Include="word_relay_II.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="alphabetical_combination_of_phone_numbers.h" />
@@ -225,6 +226,7 @@
     <ClInclude Include="sum_of_continuous_integers.h" />
     <ClInclude Include="super_number_palindromes.h" />
     <ClInclude Include="wildcard_matching.h" />
+    <ClInclude Include="word_relay_II.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
