@@ -93,4 +93,6 @@ using namespace std;
 
 #include "word_relay_II.h" // 单词接龙 II	Word Relay II
 
+#include "word_chain.h" // 单词接龙	Word Chain
+
 #endif // !__MAIN_H__

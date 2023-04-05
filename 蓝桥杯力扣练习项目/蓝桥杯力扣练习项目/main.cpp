@@ -90,7 +90,9 @@ int main()
 
 	//fromSequenceWithSequenceStructureBinaryTreeTraversalSequence(); // 从中序与后序遍历序列构造二叉树	Constructing binary tree from Middle and Post Order Traversal Sequences
 
-	randomlyII(); // 单词接龙 II	Word Relay II
+	//randomlyII(); // 单词接龙 II	Word Relay II
+
+	wordChain(); // 单词接龙	Word Chain
 
 	return 0;
 }

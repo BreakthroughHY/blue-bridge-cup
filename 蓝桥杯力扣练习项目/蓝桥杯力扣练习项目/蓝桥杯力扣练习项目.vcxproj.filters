@@ -144,6 +144,9 @@
     <ClCompile Include="word_relay_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="word_chain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -273,6 +276,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="word_relay_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="word_chain.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
