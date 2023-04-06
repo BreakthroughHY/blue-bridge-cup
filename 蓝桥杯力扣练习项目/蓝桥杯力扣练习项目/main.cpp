@@ -54,7 +54,9 @@ int main()
 
 	//bestTimeToBuyStocksIII(); // 买卖股票的最佳时机 III	The Best Time to Buy and Sell Stocks III
 
-	yangHuiTriangle(); // 杨辉三角	Yang Hui Triangle
+	//yangHuiTriangle(); // 杨辉三角	Yang Hui Triangle
+
+	yangHuiTriangleII(); // 杨辉三角 II	Yang Hui Triangle II
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 

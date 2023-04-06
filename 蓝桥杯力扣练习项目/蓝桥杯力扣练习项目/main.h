@@ -105,4 +105,6 @@ using namespace std;
 
 #include "yang_hui_triangle.h" // Ñî»ÔÈı½Ç	Yang Hui Triangle
 
+#include "yang_hui_triangle_II.h" // Ñî»ÔÈı½Ç II	Yang Hui Triangle II
+
 #endif // !__MAIN_H__

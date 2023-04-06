@@ -188,6 +188,7 @@
     <ClCompile Include="word_chain.cpp" />
     <ClCompile Include="word_relay_II.cpp" />
     <ClCompile Include="yang_hui_triangle.cpp" />
+    <ClCompile Include="yang_hui_triangle_II.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="alphabetical_combination_of_phone_numbers.h" />
@@ -239,6 +240,7 @@
     <ClInclude Include="word_chain.h" />
     <ClInclude Include="word_relay_II.h" />
     <ClInclude Include="yang_hui_triangle.h" />
+    <ClInclude Include="yang_hui_triangle_II.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
