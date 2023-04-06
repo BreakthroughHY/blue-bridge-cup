@@ -154,6 +154,7 @@
     <ClCompile Include="decoding_method.cpp" />
     <ClCompile Include="different_paths.cpp" />
     <ClCompile Include="different_paths_II.cpp" />
+    <ClCompile Include="different_subsequences.cpp" />
     <ClCompile Include="distribute_candy.cpp" />
     <ClCompile Include="disturb_string.cpp" />
     <ClCompile Include="edit_distance.cpp" />
@@ -202,6 +203,7 @@
     <ClInclude Include="decoding_method.h" />
     <ClInclude Include="different_paths.h" />
     <ClInclude Include="different_paths_II.h" />
+    <ClInclude Include="different_subsequences.h" />
     <ClInclude Include="distribute_candy.h" />
     <ClInclude Include="disturb_string.h" />
     <ClInclude Include="edit_distance.h" />

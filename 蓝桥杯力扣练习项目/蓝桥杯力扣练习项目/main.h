@@ -99,4 +99,6 @@ using namespace std;
 
 #include "clone_graph.h" // 克隆图	Clone Graph
 
+#include "different_subsequences.h" // 不同的子序列	Different subsequences
+
 #endif // !__MAIN_H__

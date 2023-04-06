@@ -50,6 +50,8 @@ int main()
 
 	//staggeredStr(); // 交错字符串	Interlaced String
 
+	differentSubsequence(); // 不同的子序列	Different subsequences
+
 	// 贪心算法---------------------------------------------------------------------------------------------------
 
 	//containersWaterAreMost(); // 盛最多水的容器	Container with the most water
@@ -96,7 +98,7 @@ int main()
 
 	//longestContinuousSequence(); // 最长连续序列	Longest continuous sequence
 
-	cloningFigure(); // 克隆图	Clone Graph
+	//cloningFigure(); // 克隆图	Clone Graph
 
 	return 0;
 }
