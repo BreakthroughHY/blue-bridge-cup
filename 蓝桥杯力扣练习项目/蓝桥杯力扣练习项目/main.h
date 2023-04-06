@@ -103,4 +103,6 @@ using namespace std;
 
 #include "the_best_time_to_buy_and_sell_stocksIII.h" // 买卖股票的最佳时机 III	The Best Time to Buy and Sell Stocks III
 
+#include "yang_hui_triangle.h" // 杨辉三角	Yang Hui Triangle
+
 #endif // !__MAIN_H__

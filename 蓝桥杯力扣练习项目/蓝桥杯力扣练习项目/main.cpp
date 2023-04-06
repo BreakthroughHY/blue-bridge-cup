@@ -52,7 +52,9 @@ int main()
 
 	//differentSubsequence(); // 不同的子序列	Different subsequences
 
-	bestTimeToBuyStocksIII(); // 买卖股票的最佳时机 III	The Best Time to Buy and Sell Stocks III
+	//bestTimeToBuyStocksIII(); // 买卖股票的最佳时机 III	The Best Time to Buy and Sell Stocks III
+
+	yangHuiTriangle(); // 杨辉三角	Yang Hui Triangle
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 
