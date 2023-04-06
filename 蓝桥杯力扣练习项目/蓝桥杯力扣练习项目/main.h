@@ -101,4 +101,6 @@ using namespace std;
 
 #include "different_subsequences.h" // 不同的子序列	Different subsequences
 
+#include "the_best_time_to_buy_and_sell_stocksIII.h" // 买卖股票的最佳时机 III	The Best Time to Buy and Sell Stocks III
+
 #endif // !__MAIN_H__
