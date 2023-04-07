@@ -58,7 +58,9 @@ int main()
 
 	//yangHuiTriangleII(); // 杨辉三角 II	Yang Hui Triangle II
 
-	triangleMinimumPath(); // 三角形最小路径和	Triangle minimum path sum
+	//triangleMinimumPath(); // 三角形最小路径和	Triangle minimum path sum
+
+	bestTimeToBuySellStocks(); // 买卖股票的最佳时机	The Best Time to Buy and Sell Stocks
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 

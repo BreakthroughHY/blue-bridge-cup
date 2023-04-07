@@ -109,4 +109,6 @@ using namespace std;
 
 #include "triangle_minimum_path_sum.h" // 三角形最小路径和	Triangle minimum path sum
 
+#include "the_best_time_to_buy_and_sell_stocks.h" // 买卖股票的最佳时机	The Best Time to Buy and Sell Stocks
+
 #endif // !__MAIN_H__

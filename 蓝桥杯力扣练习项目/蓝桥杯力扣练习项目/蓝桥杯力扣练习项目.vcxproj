@@ -183,6 +183,7 @@
     <ClCompile Include="solving_sudoku.cpp" />
     <ClCompile Include="sum_of_continuous_integers.cpp" />
     <ClCompile Include="super_number_palindromes.cpp" />
+    <ClCompile Include="the_best_time_to_buy_and_sell_stocks.cpp" />
     <ClCompile Include="the_best_time_to_buy_and_sell_stocksIII.cpp" />
     <ClCompile Include="triangle_minimum_path_sum.cpp" />
     <ClCompile Include="wildcard_matching.cpp" />
@@ -236,6 +237,7 @@
     <ClInclude Include="solving_sudoku.h" />
     <ClInclude Include="sum_of_continuous_integers.h" />
     <ClInclude Include="super_number_palindromes.h" />
+    <ClInclude Include="the_best_time_to_buy_and_sell_stocks.h" />
     <ClInclude Include="the_best_time_to_buy_and_sell_stocksIII.h" />
     <ClInclude Include="triangle_minimum_path_sum.h" />
     <ClInclude Include="wildcard_matching.h" />
