@@ -8,7 +8,8 @@ int bestTimeToBuySellStocks()
 
 	DWORD start_time = GetTickCount();
 
-	cout << s.maxProfit(v) << endl;
+	//cout << s.maxProfit(v) << endl;
+	cout << s.maxProfitNew(v) << endl;
 
 	DWORD end_time = GetTickCount();
 
@@ -17,8 +18,38 @@ int bestTimeToBuySellStocks()
 	return 0;
 }
 
+// 动态规划二维数组
 int SolutionTheBestTimeToBuyandSellStocks::maxProfit(vector<int>& prices)
 {
-	
-	return 0;
+	int n = prices.size();
+
+	vector<vector<int>> dp(n, vector<int>(2));
+
+	dp[0][0] = -prices[0];
+
+	for (int i = 1; i < n; ++i)
+	{
+		dp[i][0] = max(-prices[i], dp[i - 1][0]);
+		dp[i][1] = max(dp[i - 1][0] + prices[i], dp[i - 1][1]);
+	}
+
+	return dp.back().back();
+}
+
+// 动态规划一维数组
+int SolutionTheBestTimeToBuyandSellStocks::maxProfitNew(vector<int>& prices)
+{
+	int n = prices.size();
+
+	vector<int> dp{ {-prices[0], 0} };
+	vector<int> temp{ {-prices[0], 0} };
+
+	for (int i = 1; i < n; ++i)
+	{
+		dp[0] = max(-prices[i], temp[0]);
+		dp[1] = max(temp[0] + prices[i], temp[1]);
+		temp = dp;
+	}
+
+	return dp.back();
 }

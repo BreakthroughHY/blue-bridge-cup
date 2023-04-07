@@ -9,6 +9,8 @@
 class SolutionTheBestTimeToBuyandSellStocks {
 public:
     int maxProfit(vector<int>& prices);
+
+    int maxProfitNew(vector<int>& prices);
 };
 
 int bestTimeToBuySellStocks();
