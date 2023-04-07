@@ -111,4 +111,6 @@ using namespace std;
 
 #include "the_best_time_to_buy_and_sell_stocks.h" // 买卖股票的最佳时机	The Best Time to Buy and Sell Stocks
 
+#include "split_palindrome_string.h" // 分割回文串	Split palindrome string
+
 #endif // !__MAIN_H__

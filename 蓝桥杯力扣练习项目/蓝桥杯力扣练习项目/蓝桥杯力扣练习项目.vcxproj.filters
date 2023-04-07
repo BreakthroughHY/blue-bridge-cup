@@ -171,6 +171,9 @@
     <ClCompile Include="the_best_time_to_buy_and_sell_stocks.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="split_palindrome_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -327,6 +330,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="the_best_time_to_buy_and_sell_stocks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="split_palindrome_string.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

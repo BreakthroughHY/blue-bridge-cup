@@ -60,7 +60,9 @@ int main()
 
 	//triangleMinimumPath(); // 三角形最小路径和	Triangle minimum path sum
 
-	bestTimeToBuySellStocks(); // 买卖股票的最佳时机	The Best Time to Buy and Sell Stocks
+	//bestTimeToBuySellStocks(); // 买卖股票的最佳时机	The Best Time to Buy and Sell Stocks
+	
+	splitPalindromeString(); // 分割回文串	Split palindrome string
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 
