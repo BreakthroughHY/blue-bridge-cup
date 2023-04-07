@@ -165,6 +165,9 @@
     <ClCompile Include="yang_hui_triangle_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="triangle_minimum_path_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count_prime.h">
@@ -315,6 +318,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="yang_hui_triangle_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_minimum_path_sum.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

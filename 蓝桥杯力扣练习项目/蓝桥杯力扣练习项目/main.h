@@ -107,4 +107,6 @@ using namespace std;
 
 #include "yang_hui_triangle_II.h" // 杨辉三角 II	Yang Hui Triangle II
 
+#include "triangle_minimum_path_sum.h" // 三角形最小路径和	Triangle minimum path sum
+
 #endif // !__MAIN_H__

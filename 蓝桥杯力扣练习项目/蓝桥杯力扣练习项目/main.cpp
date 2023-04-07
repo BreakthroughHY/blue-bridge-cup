@@ -56,7 +56,9 @@ int main()
 
 	//yangHuiTriangle(); // 杨辉三角	Yang Hui Triangle
 
-	yangHuiTriangleII(); // 杨辉三角 II	Yang Hui Triangle II
+	//yangHuiTriangleII(); // 杨辉三角 II	Yang Hui Triangle II
+
+	triangleMinimumPath(); // 三角形最小路径和	Triangle minimum path sum
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 
