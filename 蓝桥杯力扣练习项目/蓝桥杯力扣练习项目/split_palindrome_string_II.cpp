@@ -18,6 +18,37 @@ int segmentationPalindromeSeriesII()
 
 int SolutionSplitPalindromeStrinII::minCut(string s)
 {
+	int n = s.size();
 
+	int left, right;
+
+	for (int i = 0; i < n; ++i)
+	{
+		left = right = i;
+		uMap[left].emplace_back(right); // 单个字符是回文数，直接写入哈希表
+		while (--left >= 0 && ++right < n && s[left] == s[right])
+		{
+			uMap[left].emplace_back(right);
+		}
+
+		if (i == n - 1)
+			break;
+
+		left = i;
+		right = i + 1;
+
+		while (left >= 0 && right < n && s[left] == s[right])
+		{
+			uMap[left].emplace_back(right);
+			--left;
+			++right;
+		}
+	}
+	
 	return 0;
 }
+
+//void dfs()
+//{
+//	if 
+//}
