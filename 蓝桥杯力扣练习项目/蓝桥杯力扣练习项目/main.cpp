@@ -62,7 +62,9 @@ int main()
 
 	//bestTimeToBuySellStocks(); // 买卖股票的最佳时机	The Best Time to Buy and Sell Stocks
 	
-	splitPalindromeString(); // 分割回文串	Split palindrome string
+	//splitPalindromeString(); // 分割回文串	Split palindrome string
+
+	segmentationPalindromeSeriesII(); // 分割回文串 II	Split palindrome string II
 
 	// 贪心算法---------------------------------------------------------------------------------------------------
 

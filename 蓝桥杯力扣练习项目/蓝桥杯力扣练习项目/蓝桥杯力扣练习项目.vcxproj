@@ -182,6 +182,7 @@
     <ClCompile Include="roman_numeral_to_integer.cpp" />
     <ClCompile Include="solving_sudoku.cpp" />
     <ClCompile Include="split_palindrome_string.cpp" />
+    <ClCompile Include="split_palindrome_string_II.cpp" />
     <ClCompile Include="sum_of_continuous_integers.cpp" />
     <ClCompile Include="super_number_palindromes.cpp" />
     <ClCompile Include="the_best_time_to_buy_and_sell_stocks.cpp" />
@@ -237,6 +238,7 @@
     <ClInclude Include="roman_numeral_to_integer.h" />
     <ClInclude Include="solving_sudoku.h" />
     <ClInclude Include="split_palindrome_string.h" />
+    <ClInclude Include="split_palindrome_string_II.h" />
     <ClInclude Include="sum_of_continuous_integers.h" />
     <ClInclude Include="super_number_palindromes.h" />
     <ClInclude Include="the_best_time_to_buy_and_sell_stocks.h" />

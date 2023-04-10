@@ -113,4 +113,6 @@ using namespace std;
 
 #include "split_palindrome_string.h" // 分割回文串	Split palindrome string
 
+#include "split_palindrome_string_II.h" // 分割回文串 II	Split palindrome string II
+
 #endif // !__MAIN_H__
